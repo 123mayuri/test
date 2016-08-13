@@ -14,8 +14,12 @@
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>
       <version>6.8</version>
-      <scope>test</scope>
     </dependency>
+    <dependency>
+    <groupId>com.relevantcodes</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>2.41.1</version>
+</dependency>
   </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -31,3 +35,4 @@
     </plugins>
   </build>
 </project>
+<!-- mayuri -->
